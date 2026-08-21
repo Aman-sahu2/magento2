@@ -1,0 +1,2 @@
+<?php
+ namespace Mgt\Varnish\Controller\Feed; class Update extends \Magento\Framework\App\Action\Action { protected $directoryList; protected $objectManager; public function __construct(\Magento\Framework\App\Action\Context $context, \Magento\Framework\App\Filesystem\DirectoryList $directoryList) { goto Ff7d4; e1c31: parent::__construct($context); goto D049a; ec664: $this->objectManager = $context->getObjectManager(); goto e1c31; Ff7d4: $this->directoryList = $directoryList; goto ec664; D049a: } public function execute() { } }
